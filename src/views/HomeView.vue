@@ -4,8 +4,8 @@
     <section class="row">
         <img :src="bigCash">
         <div class="imgText">
-            <h2></h2>
-            <p></p>
+            <h2>{{ t("image_1_header") }}</h2>
+            <p>{{ t("image_1_text") }}</p>
         </div>
     </section>
 
