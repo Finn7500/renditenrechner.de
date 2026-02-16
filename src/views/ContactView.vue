@@ -10,13 +10,22 @@
       <p><strong>Email:</strong> contact@yourdomain.com</p>
       <p><strong>Location:</strong> Germany</p>
     </section>
+
+    <section>
+      <form>
+        <title>Name</title>
+        <input type="text"/>
+        <button type="submit">{{ t("submit") }}</button>
+      </form>
+    </section>
   </main>
 </template>
 
 <script setup>
+
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .page {
   max-width: 900px;
   margin: 120px auto;

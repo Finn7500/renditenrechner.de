@@ -1,39 +1,32 @@
 <template>
     <h1 class="headline">{{ t("home_title") }}</h1>
-    <p></p>
+    <p>{{ t("home_lead") }}</p>
     <section class="row">
         <img :src="bigCash">
         <div class="imgText">
-            <h2>{{ t("image_1_header") }}</h2>
-            <p>{{ t("image_1_text") }}</p>
+            <h2>{{ t("home_image_1_header") }}</h2>
+            <p>{{ t("home_image_1_text") }}</p>
         </div>
     </section>
 
     <section class="row reverse">
         <img :src="presentation">
         <div class="imgText">
-            <h2></h2>
-            <p></p>
+            <h2>{{ t("home_image_2_header") }}</h2>
+            <p>{{ t("home_image_3_text") }}</p>
         </div>
     </section>
 
     <section class="row">
         <img :src="scamGrannys">
         <div class="imgText">
-            <h2></h2>
-            <p></p>
+            <h2>{{ t("home_image_3_header") }}</h2>
+            <p>{{ t("home_image_3_text") }}</p>
         </div>
     </section>
-
 </template>
 
 <script setup>
-import { inject } from "vue";
-import { useText } from "@/composables/useText";
-
-const lang = inject("lang")
-const { t } = useText(lang)
-
 // Bilder
 import bigCash from "@/assets/images/bigCash.png";
 import presentation from "@/assets/images/presentation.png";

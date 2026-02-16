@@ -7,13 +7,13 @@
             <div class="footer-right">
                 <ul class="footer-nav">
                     <li>
-                        <RouterLink to="/imprint">Impressum</RouterLink>
+                        <RouterLink to="/imprint">{{ t("imprint") }}</RouterLink>
                     </li>
                     <li>
-                        <RouterLink to="/privacyPolicy">Datenschutz</RouterLink>
+                        <RouterLink to="/privacyPolicy">{{ t("privacy_policy") }}</RouterLink>
                     </li>
                     <li>
-                        <RouterLink to="/contact">Kontakt</RouterLink>
+                        <RouterLink to="/contact">{{ t("contact") }}</RouterLink>
                     </li>
                 </ul>
             </div>

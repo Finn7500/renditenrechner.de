@@ -1,11 +1,39 @@
 {
     "de": {
         "home_title": "RENDITENRECHNER.DE",
-        "image_1_header": "„Rendite beginnt mit Klarheit.“",
-        "image_1_text": "Finn steht für durchdachte Strategien statt Zufall. Der Renditenrechner macht Entwicklungen verständlich - transparent und datenbasiert."
+        "home_lead": "Mit dem Renditenrechner macht Finn finanzielle Potenziale sichtbar und Investitionen planbar.",
+        "home_image_1_header": "„Rendite beginnt mit Klarheit.“",
+        "home_image_1_text": "Finn steht für durchdachte Strategien statt Zufall. Der Renditenrechner macht Entwicklungen verständlich - transparent und datenbasiert.",
+        "home_image_2_header": "„Daten verstehen. Chancen erkennen.“",
+        "home_image_2_text": "Fundierte Analysen sind die Grundlage erfolgreicher Entscheidungen. Szenarien simulieren, Ergebnisse vergleichen, sauber bewerten.",
+        "home_image_3_header": "„Erfolg entsteht im Dialog.“",
+        "home_image_3_text": "Digitale Präzision trifft persönliche Beratung. So werden Entscheidungen nachvollziehbar und langfristig tragfähig.",
+
+        "submit": "Absenden",
+        "career": "Karriere", 
+        "contact": "Kontakt",
+        "email": "E-Mail",
+        "about": "Über uns",
+        "privacy_policy": "Datenschutz",
+        "imprint": "Impressum"
     },
 
     "en": {
-        "home_title": "RETURNCALCULATOR.DE"    
+        "home_title": "RENDITENRECHNER.DE",
+        "home_lead": "With the return calculator, Finn makes financial potential visible and investments predictable.",
+        "home_image_1_header": "“Return begins with clarity.”",
+        "home_image_1_text": "Finn stands for well-thought-out strategies instead of chance. The return calculator makes developments understandable — transparent and data-driven.",
+        "home_image_2_header": "“Understand data. Recognize opportunities.”",
+        "home_image_2_text": "Sound analysis is the foundation of successful decisions. Simulate scenarios, compare results, evaluate them properly.",
+        "home_image_3_header": "“Success is built through dialogue.”",
+        "home_image_3_text": "Digital precision meets personal consulting. This makes decisions transparent and sustainable in the long term.",
+
+        "submit": "Submit",
+        "career": "Career",
+        "contact": "Contact",
+        "email": "E-Mail",
+        "about": "About",
+        "privacy_policy": "Privacy Policy",
+        "imprint": "Imprint"
     }
 }
