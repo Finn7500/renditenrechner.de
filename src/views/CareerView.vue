@@ -1,6 +1,6 @@
 <template>
   <main class="page">
-    <h1>Careers</h1>
+    <h1>{{ t("career") }}</h1>
 
     <p class="intro">
       We are always interested in talented individuals who think analytically
@@ -28,7 +28,7 @@
 <script setup>
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .page {
   max-width: 900px;
   margin: 120px auto;

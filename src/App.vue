@@ -14,10 +14,10 @@ import Header from './components/header.vue';
 </script>
 
 
-<style>
+<style lang="scss">
 @import "@/assets/styles/main.scss";
 
 .content {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 </style>

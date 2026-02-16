@@ -1,19 +1,18 @@
 <template>
   <main class="legal">
-    <h1 class="headline">{{ content.headline }}</h1>
-    <p class="lead">{{ content.lead }}</p>
+    <h1 class="headline"></h1>
+    <p class="lead"></p>
 
-    <section class="box" v-for="(item, i) in content.sections" :key="i">
-      <h2>{{ item.title }}</h2>
-      <p class="text">{{ item.text }}</p>
+    <section>
+      <h2></h2>
+      <p class="text"></p>
     </section>
 
-    <p class="stand">{{ content.stand }}</p>
+    <p class="stand"></p>
   </main>
 </template>
 
 <script setup>
-import content from "@/content/imprint.de.json";
 </script>
 
 <style lang="scss" scoped>

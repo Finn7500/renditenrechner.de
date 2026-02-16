@@ -1,6 +1,8 @@
 <template>
     <div class="header">
-        <div class="left">Logo</div>
+        <div class="left">
+            <img class="img" :src="Logo">
+        </div>
 
         <div class="center">
             <ul>
@@ -8,16 +10,16 @@
                     <RouterLink to="/">Home</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/about">About</RouterLink>
+                    <RouterLink to="/about">{{ t("about") }}</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/career">Career</RouterLink>
+                    <RouterLink to="/career">{{ t("career") }}</RouterLink>
                 </li>
             </ul>
         </div>
 
         <div class="right">
-            <button :class="{ active: lang === 'de' }" @click="setLang('de')">DE</button>
+            <button :class="{ 'active': lang === 'de' }" @click="setLang('de')">DE</button>
             <span>|</span>
             <button :class="{ 'active': lang === 'en' }" @click="setLang('en')">EN</button>
         </div>
@@ -26,6 +28,7 @@
 
 <script setup>
 import { inject } from "vue"
+import Logo from "@/assets/images/logo.png";
 
 // holen uns die globale Sprache (das gleiche ref aus main.js)
 const lang = inject("lang")
@@ -33,6 +36,7 @@ const lang = inject("lang")
 const setLang = (newLang) => {
     lang.value = newLang
 }
+
 </script>
 
 <style lang="scss" scoped>
@@ -86,6 +90,7 @@ const setLang = (newLang) => {
     gap: 12px;
 
     button {
+        position: relative;
         background: transparent;
         border: 2px solid transparent;
         padding: 6px 14px;
@@ -114,7 +119,15 @@ const setLang = (newLang) => {
     }
 }
 
-.active {
-    background-color: blue;
+button.active {
+    background-color: rgba($color-primary, 0.2);
+}
+
+img {
+    height: 50px;
+    /* feste Höhe */
+    width: auto;
+    /* Breite automatisch -> kein Verzerren */
+    display: block;
 }
 </style>
