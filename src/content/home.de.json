@@ -1,0 +1,27 @@
+{
+  "headline": "Finn",
+  "lead": "Mit dem Renditenrechner macht Finn finanzielle Potenziale sichtbar und Investitionen planbar.",
+  "sections": [
+    {
+      "id": "clarity",
+      "imageKey": "bigCash",
+      "alt": "Finn mit Geld Sack",
+      "title": "„Rendite beginnt mit Klarheit.“",
+      "text": "Finn steht für durchdachte Strategien statt Zufall. Der Renditenrechner macht Entwicklungen verständlich - transparent und datenbasiert."
+    },
+    {
+      "id": "data",
+      "imageKey": "presentation",
+      "alt": "Finn präsentiert",
+      "title": "„Daten verstehen. Chancen erkennen.“",
+      "text": "Fundierte Analysen sind die Grundlage erfolgreicher Entscheidungen. Szenarien simulieren, Ergebnisse vergleichen, sauber bewerten."
+    },
+    {
+      "id": "dialog",
+      "imageKey": "scamGrannys",
+      "alt": "Finn im Gespräch",
+      "title": "„Erfolg entsteht im Dialog.“",
+      "text": "Digitale Präzision trifft persönliche Beratung. So werden Entscheidungen nachvollziehbar und langfristig tragfähig."
+    }
+  ]
+}

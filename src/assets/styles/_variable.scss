@@ -1,0 +1,86 @@
+// =======================
+// _variables.scss
+// =======================
+
+// -----------------------
+// Farben
+// -----------------------
+$color-primary: #8B1C1C;        // dunkles, angenehmes Rot
+$color-secondary: #F28C8C;      // helleres Rot/rosa als Akzent
+$color-accent: #FFC107;         // gelb-orange als Highlight
+$color-background: #1E1E1E;     // dunkles Hintergrundgrau
+$color-surface: #2A2A2A;        // Oberflächenfarbe für Cards/Nav
+$color-text-primary: #000000;   // Haupttext
+$color-text-secondary: #CCCCCC; // Sekundärtext
+$color-border: #444444;         // neutrale Borderfarbe
+$color-success: #4CAF50;
+$color-warning: #FF9800;
+$color-error: #F44336;
+
+
+// Standardfarben
+$black: #000000;
+$white: #FFFFFF;
+$grey: #808080;
+$light-grey: #CCCCCC;
+$dark-grey: #333333;
+$blue: #2196F3;
+$green: #4CAF50;
+$yellow: #FFC107;
+$red: #F44336;
+
+
+// -----------------------
+// Spacing
+// -----------------------
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-xxl: 48px;
+$spacing-container-xl: 80px;
+
+// -----------------------
+// Fonts
+// -----------------------
+$font-family-base: 'Inter', 'Helvetica', 'Arial', sans-serif;
+$font-size-xs: 0.75rem;   // 12px
+$font-size-sm: 0.875rem;  // 14px
+$font-size-md: 1rem;      // 16px
+$font-size-lg: 1.125rem;  // 18px
+$font-size-xl: 1.25rem;   // 20px
+$font-size-xxl: 1.5rem;   // 24px
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// -----------------------
+// Border & Radius
+// -----------------------
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-round: 50%;
+
+// -----------------------
+// Shadows
+// -----------------------
+$shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+$shadow-md: 0 4px 6px rgba(0,0,0,0.15);
+$shadow-lg: 0 10px 15px rgba(0,0,0,0.2);
+
+// -----------------------
+// Breakpoints (responsive)
+// -----------------------
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// -----------------------
+// Transition
+// -----------------------
+$transition-fast: 0.2s ease-in-out;
+$transition-medium: 0.4s ease-in-out;
+$transition-slow: 0.6s ease-in-out;
