@@ -1,59 +1,87 @@
 <template>
-  <main class="page">
-    <h1>{{ t("career") }}</h1>
+  <main class="career_page">
+    <header class="career_header">
+      <h1 class="career_page_title">{{ t("career") }}</h1>
+      <p class="career_title">{{ t("career_title") }}</p>
+    </header>
 
-    <p class="intro">
-      We are always interested in talented individuals who think analytically
-      and strive for clarity in complex systems.
+    <p class="career_intro">
+      {{ t("career_intro") }}
     </p>
 
-    <section>
-      <h2>Open Positions</h2>
-      <p>
-        Currently, there are no open positions.
-        However, we welcome proactive applications.
+    <section class="career_card">
+      <h2 class="career_section_title">
+        {{ t("career_section_positions") }}
+      </h2>
+      <p class="career_text">
+        {{ t("career_positions_text") }}
       </p>
     </section>
 
-    <section>
-      <h2>Why Join?</h2>
-      <p>
-        Work at the intersection of finance and technology.
-        Contribute to building tools that empower smarter decision-making.
+    <section class="career_card">
+      <h2 class="career_section_title">
+        {{ t("career_section_why") }}
+      </h2>
+      <p class="career_text">
+        {{ t("career_why_text") }}
       </p>
     </section>
   </main>
 </template>
 
 <script setup>
+import { inject } from "vue"
+import { useText } from "@/composables/useText"
+
+const lang = inject("lang")
+const { t } = useText(lang)
 </script>
 
 <style lang="scss" scoped>
-.page {
+.career_page {
   max-width: 900px;
-  margin: 120px auto;
-  padding: 0 20px;
+  margin: 100px auto;
+  padding: 0 20px 60px;
 }
 
-h1 {
-  font-size: 42px;
-  margin-bottom: 30px;
+.career_page_title {
+  font-size: 36px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
-.intro {
-  margin-bottom: 50px;
+.career_header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.career_title {
+  font-size: 16px;
+  color: #666;
+}
+
+.career_intro {
+  margin-bottom: 40px;
   line-height: 1.6;
-  opacity: 0.85;
+  color: #444;
+  text-align: center;
 }
 
-h2 {
-  margin-top: 40px;
+.career_card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.career_section_title {
+  font-size: 20px;
   margin-bottom: 10px;
-  font-size: 22px;
 }
 
-p {
+.career_text {
   line-height: 1.6;
-  opacity: 0.85;
+  color: #333;
 }
 </style>
