@@ -1,13 +1,20 @@
 <template>
+  <div class="career_header">
+    <h1 class="career_page_title">{{ t("career") }}</h1>
+    <p class="career_title">{{ t("career_title") }}</p>
+  </div>
   <main class="career_page">
-    <header class="career_header">
-      <h1 class="career_page_title">{{ t("career") }}</h1>
-      <p class="career_title">{{ t("career_title") }}</p>
-    </header>
 
-    <p class="career_intro">
-      {{ t("career_intro") }}
-    </p>
+    <div class="career_quote">
+      <div class="career_quote_img">
+        <img :src="career_de">
+      </div>
+      <div class="career_quote_text">
+        <p>
+          {{ t("career_intro") }}
+        </p>
+      </div>
+    </div>
 
     <section class="career_card">
       <h2 class="career_section_title">
@@ -30,14 +37,50 @@
 </template>
 
 <script setup>
-import { inject } from "vue"
-import { useText } from "@/composables/useText"
+// import { inject } from "vue"
+// import { useText } from "@/composables/useText"
 
-const lang = inject("lang")
-const { t } = useText(lang)
+// const lang = inject("lang")
+// const { t } = useText(lang)
+
+import career_en from "@/assets/images/career_en.png";
+import career_de from "@/assets/images/career_de.png";
 </script>
 
 <style lang="scss" scoped>
+@use '/src/assets/styles/main.scss' as *;
+
+.career_quote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-lg;
+
+  &_text {
+    padding: $spacing-container-xl;
+    font-size: $font-size-xxl;
+  }
+
+  &_img {
+    border-radius: $border-radius-lg; //runde ecken
+    width: 700px;
+    height: auto;
+    box-shadow: $shadow-md;
+    transition: transform 0.3s ease;
+    display: flex;
+    overflow: hidden;
+
+
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+
 .career_page {
   max-width: 900px;
   margin: 100px auto;
@@ -45,18 +88,16 @@ const { t } = useText(lang)
 }
 
 .career_page_title {
-  font-size: 36px;
+  font-size: 58px;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .career_header {
-  text-align: center;
   margin-bottom: 40px;
 }
 
 .career_title {
-  font-size: 16px;
+  font-size: 24px;
   color: #666;
 }
 

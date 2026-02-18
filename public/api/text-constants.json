@@ -11,53 +11,49 @@
 
         "about": "Über Mich",
         "about_title": "Über renditenrechner.de",
-
         "about_section_project": "🚀 Das Projekt",
         "about_project_meta": "renditenrechner.de\nProjektstart: Freitag, 6. Februar 2026 - 12:11:45 Uhr",
         "about_project_text": "Manche Projekte entstehen aus einer spontanen Idee. Dieses hier entstand aus einem klaren Ziel: Einen einfachen, verständlichen Renditerechner bauen, der Menschen hilft, ihre Investments realistisch einzuschätzen. Keine Excel-Spielerei, kein unnötiger Overkill - sondern ein sauberes Tool mit echtem Mehrwert.",
-
         "about_section_mission": "💡 Warum dieses Projekt?",
         "about_mission_text": "Ich wollte Tools bauen, die echten Mehrwert bringen, ein eigenes Projekt komplett von Grund auf starten und in der Webentwicklung besser werden. Gleichzeitig wollte ich ein Projekt haben, das ich vorzeigen kann. Viele Menschen wissen nicht genau, wie sich der Zinseszins auswirkt, was Zeit mit einer Investition macht oder wie realistisch eine bestimmte Rendite wirklich ist. Genau da setzt dieses Projekt an.",
-
         "about_section_idea": "🧠 Die Idee dahinter",
         "about_idea_text": "Der Renditenrechner soll Rendite verständlich machen, komplexe Berechnungen einfach darstellen und Motivation geben, langfristig zu denken. Gleichzeitig zeigt das Projekt, dass man eigene Ideen durchziehen kann. Er löst ein simples, aber wichtiges Problem: Viele Menschen investieren - aber berechnen ihre Rendite nicht korrekt.",
-
         "about_section_tech": "🛠️ Technische Umsetzung",
         "about_tech_text": "Frontend: HTML, CSS, JavaScript, Vue. Backend: Noch nicht vorhanden - aber geplant. Hosting & Infrastruktur: Raspberry Pi, Linux Lite OS 32 Bit, SSH, nginx, Cloudflare Tunnel. Das technisch Spannendste war es, den eigenen Raspberry Pi Server aufzusetzen und die Seite selbst zu hosten - vom Betriebssystem bis zur Domain alles selbst konfiguriert. Das ist kein Baukasten. Das ist echtes Verstehen.",
-
         "about_section_fascination": "🔍 Was mich daran fasziniert",
         "about_fascination_text": "Technik bedeutet, mit nichts zu starten - nur mit einem Laptop - und daraus eine öffentlich erreichbare Website zu bauen. Die Mechanik hinter Cloudflare, Servern, DNS und Tunneln ist genauso spannend wie der Code selbst. Von 0 auf 100, nur durch Lernen und Umsetzen.",
-
         "about_section_future": "Zukünftiges",
         "about_future_elements": "PokeAPI Integration, Online-Shop, Renditenrechner, UI-Anpassungen",
-
         "about_section_reason": "🧑‍💻 Warum ich das gebaut habe",
         "about_reason_text": "Um zu verstehen. Um zu lernen. Um ein echtes eigenes Projekt zu haben. Und um zu zeigen, dass man Dinge durchziehen kann. Nicht nur Tutorials konsumieren - sondern selbst bauen.",
-
         "about_section_personal": "🏋️‍♂️ Und außerhalb vom Code",
         "about_personal_text": "Gym. Disziplin im Training, Disziplin im Projekt. Beides funktioniert nur, wenn man konstant dranbleibt.",
-
         "about_section_contact": "📬 Kontakt & Feedback",
         "about_contact_text": "Ich freue mich über neue Ideen für dieses Projekt, Verbesserungsvorschläge oder Feedback zur Website. Schreib mir gerne – ich freue mich über jede Rückmeldung.",
 
-
-
-        "about_intro": "Finn steht für strukturiertes finanzielles Denken, datenbasierte Analyse und langfristige Wertschöpfung.",
-
-        
         "submit": "Absenden",
+        "message": "Nachricht",
 
         "career": "Karriere",
         "career_title": "Karriere bei renditenrechner.de",
-        "career_intro": "Ich bin immer interessiert an motivierten Menschen, die analytisch denken und Klarheit in komplexe Systeme bringen wollen.",
+        "career_intro": "„Ich bin immer interessiert an motivierten Menschen, die analytisch denken und Klarheit in komplexe Systeme bringen wollen.“",
         "career_section_positions": "Offene Positionen",
         "career_positions_text": "Aktuell gibt es keine offenen Stellen. Initiativbewerbungen oder Projektideen sind jedoch jederzeit willkommen.",
         "career_section_why": "Warum mitmachen?",
         "career_why_text": "Arbeite an der Schnittstelle zwischen Finanzen und Technologie. Hilf dabei, Tools zu entwickeln, die smartere Entscheidungen ermöglichen und komplexe Zusammenhänge verständlich machen.", 
         
         "contact": "Kontakt",
+        "contact-intro": "Wenn Sie Fragen zum Renditerechner oder zu Kooperationsmöglichkeiten haben, können Sie sich gerne an uns wenden.",
+
         "email": "E-Mail",
+
         "privacy_policy": "Datenschutz",
+        "privacy_policy_info": "Allgemeine Informationen",
+        "privacy_policy_info_text": "Der Schutz Ihrer personenbezogenen Daten ist uns wichtig.\nDiese Website verarbeitet personenbezogene Daten ausschließlich im Einklang mit den geltenden Datenschutzgesetzen.",
+        "privacy_policy_collection": "Datenerhebung",
+        "privacy_policy_collection_text": "Beim Besuch dieser Website können bestimmte technische Informationen\n(wie IP-Adresse, Browsertyp und Zugriffszeit) automatisch gespeichert werden.",
+        "privacy_policy_contact_text": "Wenn Sie uns per E-Mail kontaktieren, werden Ihre Daten ausschließlich zum Zweck der Bearbeitung Ihrer Anfrage gespeichert.",
+
         "imprint": "Impressum"
     },
 
@@ -75,49 +71,50 @@
         "about_title": "About renditenrechner.de",
 
         "about_section_project": "🚀 The Project",
-        "about_project_meta": "renditenrechner.de\nProject started: Friday, February 6, 2026 – 12:11:45 PM",
+        "about_project_meta": "renditenrechner.de\nProject started: Friday, February 6, 2026 - 12:11:45 PM",
         "about_project_text": "Some projects start from a spontaneous idea. This one started with a clear goal: to build a simple and understandable return calculator that helps people realistically evaluate their investments. No Excel chaos. No unnecessary overengineering – just a clean tool that delivers real value.",
-
         "about_section_mission": "💡 Why This Project?",
         "about_mission_text": "I wanted to build tools that provide real value, start a complete project from scratch, and improve my web development skills. At the same time, I wanted to create something I could proudly showcase. Many people do not fully understand how compound interest works, what time does to an investment, or how realistic a certain return actually is. That is exactly where this project comes in.",
-
         "about_section_idea": "🧠 The Idea Behind It",
         "about_idea_text": "The return calculator aims to make investment returns easier to understand, simplify complex calculations, and motivate people to think long-term. At the same time, the project proves that you can take an idea and fully execute it. It solves a simple but important problem: many people invest, but they do not calculate their returns correctly.",
-
         "about_section_tech": "🛠️ Technical Implementation",
-        "about_tech_text": "Frontend: HTML, CSS, JavaScript, Vue. Backend: Not implemented yet – but planned. Hosting & infrastructure: Raspberry Pi, Linux Lite OS 32 Bit, SSH, nginx, Cloudflare Tunnel. The most exciting technical part was setting up my own Raspberry Pi server and hosting the website myself – configuring everything from the operating system to the domain. This is not a website builder. This is real understanding.",
-
+        "about_tech_text": "Frontend: HTML, CSS, JavaScript, Vue. Backend: Not implemented yet - but planned. Hosting & infrastructure: Raspberry Pi, Linux Lite OS 32 Bit, SSH, nginx, Cloudflare Tunnel. The most exciting technical part was setting up my own Raspberry Pi server and hosting the website myself – configuring everything from the operating system to the domain. This is not a website builder. This is real understanding.",
         "about_section_fascination": "🔍 What Fascinates Me About It",
         "about_fascination_text": "Technology means starting with nothing – just a laptop – and building a publicly accessible website from scratch. The mechanics behind Cloudflare, servers, DNS, and tunnels are just as fascinating as the code itself. From zero to one hundred, purely through learning and execution.",
-
         "about_section_future": "🧩 Setup & Future Plans",
         "about_future_elements": "Future plans include a Pokémon API integration, an online shop, and an extended version of the return calculator. The project is not finished – it is just the beginning.",
-
         "about_section_reason": "🧑‍💻 Why I Built This",
         "about_reason_text": "To understand. To learn. To build a real project of my own. And to prove that ideas can be executed with consistency. Not just consuming tutorials – but actually building.",
-
         "about_section_personal": "🏋️‍♂️ Outside of Coding",
         "about_personal_text": "Gym. Discipline in training, discipline in projects. Both only work if you stay consistent.",
-
         "about_section_contact": "📬 Contact & Feedback",
         "about_contact_text": "I am always open to new ideas for this project, suggestions for improvement, or general feedback about the website. Feel free to reach out – I appreciate every message.",
                 
         
         "submit": "Submit",
+        "message": "Message",
 
         "career": "Career",
         "career_title": "Career at renditenrechner.de",
-        "career_intro": "I am always interested in motivated individuals who think analytically and aim to bring clarity into complex systems.",
+        "career_intro": "„I am always interested in motivated individuals who think analytically and aim to bring clarity into complex systems.“",
         "career_section_positions": "Open Positions",
         "career_positions_text": "Currently, there are no open positions. However, proactive applications or project ideas are always welcome.",
         "career_section_why": "Why Join?",
         "career_why_text": "Work at the intersection of finance and technology. Contribute to building tools that enable smarter decision-making and make complex systems easier to understand.",
                 
         "contact": "Contact",
+        "contact-intro": "If you have any questions regarding the return calculator or collaboration opportunities, feel free to reach out.",
+
         "email": "E-Mail",
         
-        
         "privacy_policy": "Privacy Policy",
+        "privacy_policy_info": "General Information",
+        "privacy_policy_info_text": "The protection of your personal data is important to us. \nThis website processes personal data only in accordance with applicable data protection laws.",
+        "privacy_policy_collection": "Data Collection",
+        "privacy_policy_collection_text": "When visiting this website, certain technical information \n(such as IP address, browser type, and access time) may be stored automatically.",
+        "privacy_policy_contact_text": "If you contact us via email, your data will be stored only for the purpose of processing your request.",
+
+
         "imprint": "Imprint"
     }
 }

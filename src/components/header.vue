@@ -1,7 +1,9 @@
 <template>
     <div class="header">
         <div class="left">
-            <img class="img" :src="Logo">
+            <RouterLink to="/">
+                <img class="img" :src="Logo">
+            </RouterLink>
         </div>
 
         <div class="center">

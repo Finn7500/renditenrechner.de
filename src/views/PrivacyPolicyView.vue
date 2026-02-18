@@ -1,27 +1,25 @@
 <template>
   <main class="page">
-    <h1>Privacy Policy</h1>
+    <h1>{{ t("privacy_policy") }}</h1>
 
     <section>
-      <h2>1. General Information</h2>
+      <h2>1. {{ t("privacy_policy_info") }}</h2>
       <p>
-        The protection of your personal data is important to us.
-        This website processes personal data only in accordance with applicable data protection laws.
+        {{ t("privacy_policy_info_text") }}
       </p>
     </section>
 
     <section>
-      <h2>2. Data Collection</h2>
+      <h2>2. {{ t("privacy_policy_collection") }}</h2>
       <p>
-        When visiting this website, certain technical information
-        (such as IP address, browser type, and access time) may be stored automatically.
+        {{ t("privacy_policy_collection_text") }}
       </p>
     </section>
 
     <section>
-      <h2>3. Contact</h2>
+      <h2>3. {{ t("contact") }}</h2>
       <p>
-        If you contact us via email, your data will be stored only for the purpose of processing your request.
+        {{ t("privacy_policy_contact_text") }}
       </p>
     </section>
   </main>
@@ -32,6 +30,8 @@
 </script>
 
 <style scoped>
+@import "@/assets/styles/main.scss";
+
 .page {
   max-width: 900px;
   margin: 120px auto;

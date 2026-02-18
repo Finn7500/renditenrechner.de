@@ -1,21 +1,30 @@
 <template>
   <main class="page">
-    <h1>Contact</h1>
-    <p class="intro">
-      If you have any questions regarding the return calculator or collaboration opportunities,
-      feel free to reach out.
+    <h1>{{ t("contact") }}</h1>
+    <p class="contact-intro">
+      {{ t("contact-intro") }}
     </p>
 
     <section class="contact-box">
-      <p><strong>Email:</strong> contact@yourdomain.com</p>
+      <p><strong>Email:</strong> <a href="mailto:webmaster@renditenrechner.de">webmaster@renditenrechner.de</a></p>
       <p><strong>Location:</strong> Germany</p>
     </section>
 
-    <section>
+    <section class="contact-form">
       <form>
-        <title>Name</title>
-        <input type="text"/>
-        <button type="submit">{{ t("submit") }}</button>
+        <div class="contact-form-top">
+          <label>Name: </label>
+          <input type="text">
+          <label>{{ t("email") }}:</label>
+          <input type="email">
+        </div>
+        <div class="contact-form-message">
+          <label>{{ t("message") }}:</label>
+          <textarea class="contact-form-textarea"></textarea>
+        </div>
+        <div class="contact-form-button">
+          <button type="submit">{{ t("submit") }}</button>
+        </div>
       </form>
     </section>
   </main>
@@ -26,6 +35,84 @@
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/styles/main.scss";
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 800px;
+
+  &-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+    width: 100%;
+    label {
+      text-align: left;
+    }
+    
+    input {
+      width: 100%;
+      padding: 12px 24px;
+      border-radius: $border-radius-sm;
+      border: 1px solid $grey;
+    }
+    
+  }
+  
+  &-message {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+    width: 100%;
+  }
+
+  &-textarea {
+    width: 100%; // bezieht sich auf parent container
+    min-height: 120px;
+    padding: 12px 24px;
+    outline: none;
+    border: 1px solid $grey;
+    border-radius: $border-radius-sm;
+    box-shadow: $shadow-sm;
+    resize: vertical;
+  }
+
+  button {
+        position: absolute;
+        border: 1px solid $grey;
+        padding: 6px 14px;
+        // font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: all 75ms ease-in-out;
+
+        &:hover {
+          color: $white;
+          background-color: $color-primary;
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+
+  span {
+    padding: 0 4px;
+  }
+
+  
+
+}
+
 .page {
   max-width: 900px;
   margin: 120px auto;
